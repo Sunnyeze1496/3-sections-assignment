@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: red;
+    height: 50px;
+    align-items: center;
+   
+}
+.allform{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    background-image: url(./e-learning\ 3.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+form{
+    background-color:grey;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 50px;
+}
+label{
+    text-align: left;
+}
+
+.form2{
+    height: fit-content;
+}
+
+.form2 input{
+    padding: 12px 24px;
+    width: 80%;
+}
+button{
+    color: green;
+}
+h1{
+    color: black;
+}
+.allcards{
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    background-color: goldenrod;
+    width: 300px;
+    height: 200px;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.companyname h1{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.companyname h6{
+    margin-right: 24px;
+    color: #fff;
+    
+}
+.card1image{
+width: 100px;
+height: 100px;
+}
+.card{
+    color: whitesmoke;
+    background-color: brown; 
+}
+.form2{
+    width: 300px;
+    height: auto;  
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color:black;
+    border-radius: 20px;
+}
+.instagram img{
+    width: 30px;
+    height: 30px;
+}
+.instagram p{
+    color: #fff;
+}
+.linkedin img{
+    width: 30px;
+    height: 30px;
+}
+.linkedin p{
+    color: #fff;
+}
+.whatsapp img {
+    width: 30px;
+    height: 30px;
+}
+.whatsapp p{
+    color: #fff;
+}
+.gmail img{
+    width: 30px;
+    height: 30px;
+}
+.gmail p{
+    color: #fff;
+}
+.twiter img{
+width: 30px;
+    height: 30px;
+}
+.twiter p{
+color:white ;
+}
+.contact{
+color: #fff;
+
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
